@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #0d0d94;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Additional styles for layout */
+.device-selection {
+    display: flex;
+    align-items: center; /* Aligns dropdown vertically with the label */
+    margin: 10px 0; /* Adds some space above and below the dropdown */
+    padding: 15px 30px;
+}
+
+/* Ensures the dropdown takes some space */
+select {
+    margin-left: 10px; /* Adds space between label and dropdown */
+}

@@ -1,0 +1,12 @@
+opencv-python 
+mtcnn 
+tensorflow 
+deepface 
+matplotlib 
+scikit-learn
+torch 
+torchvision 
+matplotlib 
+flask
+pandas
+numpy
